@@ -1,0 +1,37 @@
+{
+  "id": "scene_028",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Егоров Егор",
+  "city": "Ногинск",
+  "district": "МО",
+  "address": "Можайское шоссе, д. 43, кв. 124",
+  "addressParts": {
+    "street": "Можайское шоссе",
+    "house": "43",
+    "apartment": "124",
+    "entrance": "7",
+    "floor": "9"
+  },
+  "language": "русский",
+  "presumedType": "101",
+  "presumedTitle": "Пожар / задымление",
+  "description": "Горит общежитие, этаж заполнен дымом, люди на балконах.",
+  "urgency": "high",
+  "correctTags": {
+    "Где": [
+      "Дом"
+    ],
+    "Признак пожара": [
+      "Открытое пламя / Дым"
+    ],
+    "Угроза людям": [
+      "Да"
+    ]
+  },
+  "correctServices": [
+    "Служба 101",
+    "Служба 103",
+    "Деп. ЖКХ"
+  ]
+}

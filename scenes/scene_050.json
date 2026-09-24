@@ -1,0 +1,32 @@
+{
+  "id": "scene_050",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Фёдоров Валентина",
+  "city": "Балашиха",
+  "district": "МО",
+  "address": "ул. Школьная, д. 137, у метро",
+  "addressParts": {
+    "street": "ул. Школьная",
+    "house": "137",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Аллергическая реакция у ребёнка после укуса пчелы, отёк лица.",
+  "urgency": "medium",
+  "correctTags": {
+    "Состояние": [
+      "Аллергия"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103"
+  ]
+}

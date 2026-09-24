@@ -1,0 +1,38 @@
+{
+  "id": "scene_036",
+  "phone": "+7 (905) 466-36-97",
+  "phoneHidden": false,
+  "name": "Алексеева Павел",
+  "city": "Троицк",
+  "district": "МО",
+  "address": "ул. Речная, д. 142",
+  "addressParts": {
+    "street": "ул. Речная",
+    "house": "142",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "104",
+  "presumedTitle": "Запах газа",
+  "description": "Газ идёт из люка на проезжей части, водители объезжают.",
+  "urgency": "high",
+  "correctTags": {
+    "Признак": [
+      "Запах газа"
+    ],
+    "Место": [
+      "Улица"
+    ],
+    "Угроза людям": [
+      "Да"
+    ]
+  },
+  "correctServices": [
+    "Служба 104",
+    "Мосгаз",
+    "Служба 101",
+    "ЦОДД"
+  ]
+}

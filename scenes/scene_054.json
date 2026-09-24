@@ -1,0 +1,33 @@
+{
+  "id": "scene_054",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Орлов Сергей",
+  "city": "Щербинка",
+  "district": "МО",
+  "address": "ул. Шоссейная, д. 51, у ТЦ",
+  "addressParts": {
+    "street": "ул. Шоссейная",
+    "house": "51",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Ребёнок упал с качелей, открытый перелом, сильное кровотечение.",
+  "urgency": "high",
+  "correctTags": {
+    "Состояние": [
+      "Травма"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП"
+  ]
+}

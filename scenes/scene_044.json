@@ -1,0 +1,32 @@
+{
+  "id": "scene_044",
+  "phone": "+7 (951) 349-28-93",
+  "phoneHidden": false,
+  "name": "Громов Артём",
+  "city": "Одинцово",
+  "district": "МО",
+  "address": "ул. Ленина, д. 19, кв. 162, у ТЦ",
+  "addressParts": {
+    "street": "ул. Ленина",
+    "house": "19",
+    "apartment": "162",
+    "entrance": "2",
+    "floor": "14"
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Пожилой человек упал во дворе, жалуется на боль в бедре, не может встать.",
+  "urgency": "medium",
+  "correctTags": {
+    "Состояние": [
+      "Травма"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103"
+  ]
+}

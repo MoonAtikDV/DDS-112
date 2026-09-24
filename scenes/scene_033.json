@@ -1,0 +1,36 @@
+{
+  "id": "scene_033",
+  "phone": "+7 (984) 206-27-43",
+  "phoneHidden": false,
+  "name": "Белова Кирилл",
+  "city": "Коломна",
+  "district": "МО",
+  "address": "ул. Казарменная, д. 78, кв. 168",
+  "addressParts": {
+    "street": "ул. Казарменная",
+    "house": "78",
+    "apartment": "168",
+    "entrance": "2",
+    "floor": "18"
+  },
+  "language": "русский",
+  "presumedType": "104",
+  "presumedTitle": "Запах газа",
+  "description": "Запах газа у газовой трубы во дворе, слышен шипящий звук.",
+  "urgency": "medium",
+  "correctTags": {
+    "Признак": [
+      "Запах газа"
+    ],
+    "Место": [
+      "Улица"
+    ],
+    "Угроза людям": [
+      "Нет"
+    ]
+  },
+  "correctServices": [
+    "Служба 104",
+    "Мосгаз"
+  ]
+}

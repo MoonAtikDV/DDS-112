@@ -1,0 +1,23 @@
+{
+  "id": "scene_004",
+  "phone": "+7 (495) 987-65-43",
+  "phoneHidden": false,
+  "name": "Смирнова Елена",
+  "city": "Москва",
+  "district": "ЦАО",
+  "address": "ул. Арбат, 8, подвал",
+  "addressParts": {
+    "street": "ул. Арбат",
+    "house": "8"
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "В подвале сильное затопление, вода поднимается. Угроза электропроводке.",
+  "urgency": "medium",
+  "correctTags": {
+    "Место": ["Подвал"],
+    "Уровень": ["Значительный"]
+  },
+  "correctServices": ["Мосводосток", "Деп. ЖКХ", "Служба 101"]
+}

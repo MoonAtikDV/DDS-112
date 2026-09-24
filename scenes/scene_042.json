@@ -1,0 +1,33 @@
+{
+  "id": "scene_042",
+  "phone": "+7 (955) 904-84-87",
+  "phoneHidden": false,
+  "name": "Петрова Андрей",
+  "city": "Щербинка",
+  "district": "МО",
+  "address": "ул. Военная, д. 45, кв. 78, у школы",
+  "addressParts": {
+    "street": "ул. Военная",
+    "house": "45",
+    "apartment": "78",
+    "entrance": "8",
+    "floor": "15"
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Женщина в родах в такси, схватки сильные, машина стоит у обочины.",
+  "urgency": "high",
+  "correctTags": {
+    "Состояние": [
+      "Роды"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "scene_047",
+  "phone": "+7 (929) 492-98-29",
+  "phoneHidden": false,
+  "name": "Новиков Елена",
+  "city": "Мытищи",
+  "district": "МО",
+  "address": "ул. Казарменная, д. 74, у магазина",
+  "addressParts": {
+    "street": "ул. Казарменная",
+    "house": "74",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Человек с эпилептическим приступом на улице, бьётся в судорогах.",
+  "urgency": "medium",
+  "correctTags": {
+    "Состояние": [
+      "Судороги"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103"
+  ]
+}
