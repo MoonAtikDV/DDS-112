@@ -1,0 +1,36 @@
+{
+  "id": "scene_074",
+  "phone": "+7 (962) 986-29-67",
+  "phoneHidden": false,
+  "name": "Фёдоров Роман",
+  "city": "Серпухов",
+  "district": "МО",
+  "address": "Ленинский пр-т, д. 1",
+  "addressParts": {
+    "street": "Ленинский пр-т",
+    "house": "1",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "dtp",
+  "presumedTitle": "ДТП",
+  "description": "Столкновение поезда и автомобиля на переезде, есть погибшие.",
+  "urgency": "high",
+  "correctTags": {
+    "Пострадавшие": [
+      "С пострадавшими"
+    ],
+    "Место": [
+      "Ж/д переезд"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "РЖД",
+    "ГИБДД",
+    "ЦЭМП"
+  ]
+}

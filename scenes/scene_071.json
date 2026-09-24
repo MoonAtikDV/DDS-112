@@ -1,0 +1,35 @@
+{
+  "id": "scene_071",
+  "phone": "+7 (989) 596-25-13",
+  "phoneHidden": false,
+  "name": "Соколов Дарья",
+  "city": "Кубинка",
+  "district": "МО",
+  "address": "ул. Советская, д. 114, кв. 53, у парка",
+  "addressParts": {
+    "street": "ул. Советская",
+    "house": "114",
+    "apartment": "53",
+    "entrance": "4",
+    "floor": "6"
+  },
+  "language": "русский",
+  "presumedType": "dtp",
+  "presumedTitle": "ДТП",
+  "description": "Автобус с детьми съехал в кювет, есть раненые, нужна эвакуация.",
+  "urgency": "high",
+  "correctTags": {
+    "Пострадавшие": [
+      "С пострадавшими"
+    ],
+    "Количество ТС": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "ГИБДД",
+    "ЦЭМП"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scene_085",
+  "phone": "+7 (928) 980-96-96",
+  "phoneHidden": false,
+  "name": "Кузнецов Елена",
+  "city": "Щёлково",
+  "district": "МО",
+  "address": "ул. Ленина, д. 76, кв. 87, у ТЦ",
+  "addressParts": {
+    "street": "ул. Ленина",
+    "house": "76",
+    "apartment": "87",
+    "entrance": "6",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "obl",
+  "presumedTitle": "Угроза обрушения",
+  "description": "Трещины в асфальте над коллектором, риск провала.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Угроза обрушения"
+    ],
+    "Объект": [
+      "Прочее"
+    ]
+  },
+  "correctServices": [
+    "Москоллектор",
+    "Гормост",
+    "Деп. ЖКХ"
+  ]
+}

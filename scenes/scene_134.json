@@ -1,0 +1,30 @@
+{
+  "id": "scene_134",
+  "phone": "+7 (938) 971-30-99",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ул. Военная, д. 82, кв. 182, у ТЦ",
+  "addressParts": {
+    "street": "ул. Военная",
+    "house": "82",
+    "apartment": "182",
+    "entrance": "6",
+    "floor": "17"
+  },
+  "language": "русский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Массовая гибель рыбы в пруду, вода мутная, запах гнили.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Загрязнение водоёма"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "Мосводосток"
+  ]
+}

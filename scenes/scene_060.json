@@ -1,0 +1,32 @@
+{
+  "id": "scene_060",
+  "phone": "+7 (927) 856-71-45",
+  "phoneHidden": false,
+  "name": "Тихонов Артём",
+  "city": "Одинцово",
+  "district": "МО",
+  "address": "ул. Новый Арбат, д. 50, кв. 191, у ТЦ",
+  "addressParts": {
+    "street": "ул. Новый Арбат",
+    "house": "50",
+    "apartment": "191",
+    "entrance": "5",
+    "floor": "4"
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Женщина с острой болью в животе, подозрение на аппендицит.",
+  "urgency": "high",
+  "correctTags": {
+    "Состояние": [
+      "Острая боль"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103"
+  ]
+}

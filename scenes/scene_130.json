@@ -1,0 +1,29 @@
+{
+  "id": "scene_130",
+  "phone": "+7 (951) 472-75-96",
+  "phoneHidden": false,
+  "name": "Иванов Елена",
+  "city": "Солнечногорск",
+  "district": "МО",
+  "address": "ул. Люблинская, д. 112",
+  "addressParts": {
+    "street": "ул. Люблинская",
+    "house": "112",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "английский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Кража велосипеда во дворе, вор на камерах, скрылся.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Кража"
+    ]
+  },
+  "correctServices": [
+    "Служба 102"
+  ]
+}

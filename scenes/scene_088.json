@@ -1,0 +1,33 @@
+{
+  "id": "scene_088",
+  "phone": "+7 (953) 701-29-63",
+  "phoneHidden": false,
+  "name": "Зайцева Артём",
+  "city": "Раменское",
+  "district": "МО",
+  "address": "ул. Садовая, д. 35, кв. 95, у ТЦ",
+  "addressParts": {
+    "street": "ул. Садовая",
+    "house": "35",
+    "apartment": "95",
+    "entrance": "8",
+    "floor": "20"
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Затопление квартиры сверху, вода течёт по стенам, соседи не открывают.",
+  "urgency": "medium",
+  "correctTags": {
+    "Место": [
+      "Квартира"
+    ],
+    "Уровень": [
+      "Средний"
+    ]
+  },
+  "correctServices": [
+    "Деп. ЖКХ",
+    "Мосводоканал"
+  ]
+}

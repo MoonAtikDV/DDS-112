@@ -1,0 +1,32 @@
+{
+  "id": "scene_098",
+  "phone": "+7 (913) 458-81-57",
+  "phoneHidden": false,
+  "name": "Соколов Валентина",
+  "city": "Дмитров",
+  "district": "МО",
+  "address": "ул. Юных Ленинцев, д. 91",
+  "addressParts": {
+    "street": "ул. Юных Ленинцев",
+    "house": "91",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Подозрительный предмет",
+  "description": "На остановке обнаружен пакет с проводами и таймером, прохожие в стороне.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "Служба 101"
+  ]
+}

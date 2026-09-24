@@ -1,0 +1,34 @@
+{
+  "id": "scene_066",
+  "phone": "+7 (918) 173-17-31",
+  "phoneHidden": false,
+  "name": "Соколов Дарья",
+  "city": "Одинцово",
+  "district": "МО",
+  "address": "Рязанский пр-т, д. 51, кв. 140, у парка",
+  "addressParts": {
+    "street": "Рязанский пр-т",
+    "house": "51",
+    "apartment": "140",
+    "entrance": "5",
+    "floor": "15"
+  },
+  "language": "русский",
+  "presumedType": "dtp",
+  "presumedTitle": "ДТП",
+  "description": "Наезд на пешехода на зебре, водитель скрылся, пострадавший в сознании.",
+  "urgency": "medium",
+  "correctTags": {
+    "Пострадавшие": [
+      "С пострадавшими"
+    ],
+    "Место": [
+      "Проезжая часть"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "ГИБДД"
+  ]
+}

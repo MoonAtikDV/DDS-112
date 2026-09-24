@@ -1,0 +1,30 @@
+{
+  "id": "scene_122",
+  "phone": "+7 (938) 224-16-40",
+  "phoneHidden": false,
+  "name": "Козлов Денис",
+  "city": "Королёв",
+  "district": "МО",
+  "address": "ул. Вавилова, д. 141, кв. 156",
+  "addressParts": {
+    "street": "ул. Вавилова",
+    "house": "141",
+    "apartment": "156",
+    "entrance": "8",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Попытка изнасилования в парке, жертва зовёт на помощь, нападавший убегает.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Насилие"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103"
+  ]
+}

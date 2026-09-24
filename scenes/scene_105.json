@@ -1,0 +1,32 @@
+{
+  "id": "scene_105",
+  "phone": "+7 (953) 396-24-61",
+  "phoneHidden": false,
+  "name": "Фёдоров Татьяна",
+  "city": "Видное",
+  "district": "МО",
+  "address": "Ленинградский пр-т, д. 118, кв. 81",
+  "addressParts": {
+    "street": "Ленинградский пр-т",
+    "house": "118",
+    "apartment": "81",
+    "entrance": "6",
+    "floor": "6"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Сообщение о бомбе в самолёте на перроне, эвакуация аэропорта.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Росгвардия"
+  ]
+}

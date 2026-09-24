@@ -1,0 +1,33 @@
+{
+  "id": "scene_059",
+  "phone": "+7 (967) 452-64-80",
+  "phoneHidden": false,
+  "name": "Фёдоров Павел",
+  "city": "Мытищи",
+  "district": "МО",
+  "address": "ул. Обручева, д. 57, кв. 63",
+  "addressParts": {
+    "street": "ул. Обручева",
+    "house": "57",
+    "apartment": "63",
+    "entrance": "8",
+    "floor": "9"
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Ребёнок с высокой температурой и судорогами, родители в панике.",
+  "urgency": "high",
+  "correctTags": {
+    "Состояние": [
+      "Судороги"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП"
+  ]
+}

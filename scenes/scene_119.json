@@ -1,0 +1,33 @@
+{
+  "id": "scene_119",
+  "phone": "+7 (915) 391-20-30",
+  "phoneHidden": false,
+  "name": "Громов Алиса",
+  "city": "Красногорск",
+  "district": "МО",
+  "address": "пр. Мира, д. 124, кв. 142",
+  "addressParts": {
+    "street": "пр. Мира",
+    "house": "124",
+    "apartment": "142",
+    "entrance": "3",
+    "floor": "14"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Погоня за вооружённым грабителем, он скрылся в жилом доме.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Грабёж"
+    ],
+    "Оружие": [
+      "Огнестрельное"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия"
+  ]
+}

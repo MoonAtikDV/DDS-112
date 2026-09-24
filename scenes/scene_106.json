@@ -1,0 +1,32 @@
+{
+  "id": "scene_106",
+  "phone": "+7 (967) 180-60-49",
+  "phoneHidden": false,
+  "name": "Морозов Николай",
+  "city": "Дмитров",
+  "district": "МО",
+  "address": "ул. Кирова, д. 93, у метро",
+  "addressParts": {
+    "street": "ул. Кирова",
+    "house": "93",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Подозрительный предмет",
+  "description": "На рынке найден свёрток с проводами и батарейками, продавцы в стороне.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "Служба 101"
+  ]
+}

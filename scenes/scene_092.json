@@ -1,0 +1,34 @@
+{
+  "id": "scene_092",
+  "phone": "+7 (902) 278-43-16",
+  "phoneHidden": false,
+  "name": "Ковалёва Сергей",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Новый Арбат, д. 7",
+  "addressParts": {
+    "street": "ул. Новый Арбат",
+    "house": "7",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Затоплен переход метро из-за ливня, люди не могут выйти.",
+  "urgency": "high",
+  "correctTags": {
+    "Место": [
+      "Метро"
+    ],
+    "Уровень": [
+      "Значительный"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Деп. ЖКХ",
+    "Служба 101"
+  ]
+}

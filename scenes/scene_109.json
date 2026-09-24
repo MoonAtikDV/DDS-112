@@ -1,0 +1,33 @@
+{
+  "id": "scene_109",
+  "phone": "+7 (938) 915-45-85",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Дмитров",
+  "district": "МО",
+  "address": "ул. Строителей, д. 81",
+  "addressParts": {
+    "street": "ул. Строителей",
+    "house": "81",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Угроза взрыва на АЗС, неизвестный оставил свёрток у колонки.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "Служба 101",
+    "Служба 104"
+  ]
+}

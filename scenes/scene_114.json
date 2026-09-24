@@ -1,0 +1,30 @@
+{
+  "id": "scene_114",
+  "phone": "+7 (982) 910-52-26",
+  "phoneHidden": false,
+  "name": "Смирнова Андрей",
+  "city": "Истра",
+  "district": "МО",
+  "address": "ул. Гарнизонная, д. 101, у ТЦ",
+  "addressParts": {
+    "street": "ул. Гарнизонная",
+    "house": "101",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Домашнее насилие, женщина с детьми просит помощи, муж агрессивен.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Насилие"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103"
+  ]
+}

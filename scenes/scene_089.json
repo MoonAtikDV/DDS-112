@@ -1,0 +1,35 @@
+{
+  "id": "scene_089",
+  "phone": "+7 (987) 476-79-92",
+  "phoneHidden": false,
+  "name": "Морозов Алиса",
+  "city": "Красногорск",
+  "district": "МО",
+  "address": "ул. Арбат, д. 95",
+  "addressParts": {
+    "street": "ул. Арбат",
+    "house": "95",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Размыло дорогу после ливня, машина провалилась в яму, водитель внутри.",
+  "urgency": "high",
+  "correctTags": {
+    "Место": [
+      "Проезжая часть"
+    ],
+    "Уровень": [
+      "Значительный"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Деп. ЖКХ",
+    "Служба 103",
+    "ЦОДД"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scene_113",
+  "phone": "+7 (919) 441-20-84",
+  "phoneHidden": false,
+  "name": "Белова Дарья",
+  "city": "Коломна",
+  "district": "МО",
+  "address": "ул. Военная, д. 99, во дворе",
+  "addressParts": {
+    "street": "ул. Военная",
+    "house": "99",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Стрельба во дворе, слышны выстрелы, люди прячутся.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Стрельба"
+    ],
+    "Оружие": [
+      "Огнестрельное"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия",
+    "Служба 103"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scene_108",
+  "phone": "+7 (997) 693-67-97",
+  "phoneHidden": false,
+  "name": "Попов Ирина",
+  "city": "Балашиха",
+  "district": "МО",
+  "address": "МКАД, 42 км, д. 20, у парка",
+  "addressParts": {
+    "street": "МКАД, 42 км",
+    "house": "20",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Подозрительный предмет",
+  "description": "На вокзале оставлен чемодан без хозяина, рядом табличка «не трогать».",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "РЖД",
+    "Служба 101"
+  ]
+}

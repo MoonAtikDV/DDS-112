@@ -1,0 +1,33 @@
+{
+  "id": "scene_057",
+  "phone": "+7 (943) 129-73-51",
+  "phoneHidden": false,
+  "name": "Фёдоров Юлия",
+  "city": "Щёлково",
+  "district": "МО",
+  "address": "ул. Большая Полянка, д. 72, кв. 63",
+  "addressParts": {
+    "street": "ул. Большая Полянка",
+    "house": "72",
+    "apartment": "63",
+    "entrance": "4",
+    "floor": "12"
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Ребёнок утонул в бассейне, извлечён, делают реанимацию.",
+  "urgency": "high",
+  "correctTags": {
+    "Состояние": [
+      "Утопление"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП"
+  ]
+}

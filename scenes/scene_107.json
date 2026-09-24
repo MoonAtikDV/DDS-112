@@ -1,0 +1,33 @@
+{
+  "id": "scene_107",
+  "phone": "+7 (982) 934-28-40",
+  "phoneHidden": false,
+  "name": "Тихонов Павел",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Профсоюзная, д. 131, кв. 136",
+  "addressParts": {
+    "street": "ул. Профсоюзная",
+    "house": "131",
+    "apartment": "136",
+    "entrance": "5",
+    "floor": "7"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Анонимная угроза взрыва на стадионе во время матча, 50 тысяч зрителей.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "ФСБ",
+    "Служба 101"
+  ]
+}

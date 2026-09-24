@@ -1,0 +1,32 @@
+{
+  "id": "scene_103",
+  "phone": "+7 (927) 885-27-42",
+  "phoneHidden": false,
+  "name": "Иванов Анна",
+  "city": "Наро-Фоминск",
+  "district": "МО",
+  "address": "ул. Юных Ленинцев, д. 12",
+  "addressParts": {
+    "street": "ул. Юных Ленинцев",
+    "house": "12",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Письмо с угрозой взрыва в администрации района, конверт с порошком.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Росгвардия"
+  ]
+}

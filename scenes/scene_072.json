@@ -1,0 +1,35 @@
+{
+  "id": "scene_072",
+  "phone": "+7 (982) 952-29-73",
+  "phoneHidden": false,
+  "name": "Козлов Ирина",
+  "city": "Москва",
+  "district": "СЗАО",
+  "address": "ул. Победы, д. 24, во дворе",
+  "addressParts": {
+    "street": "ул. Победы",
+    "house": "24",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "dtp",
+  "presumedTitle": "ДТП",
+  "description": "Столкновение с участием скорой помощи, пациент внутри, нужна помощь.",
+  "urgency": "high",
+  "correctTags": {
+    "Пострадавшие": [
+      "С пострадавшими"
+    ],
+    "Количество ТС": [
+      "2"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "ГИБДД",
+    "ЦЭМП"
+  ]
+}

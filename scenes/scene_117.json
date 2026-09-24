@@ -1,0 +1,30 @@
+{
+  "id": "scene_117",
+  "phone": "+7 (956) 725-46-67",
+  "phoneHidden": false,
+  "name": "Белова Ксения",
+  "city": "Кубинка",
+  "district": "МО",
+  "address": "ул. Школьная, д. 43, кв. 12",
+  "addressParts": {
+    "street": "ул. Школьная",
+    "house": "43",
+    "apartment": "12",
+    "entrance": "4",
+    "floor": "10"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Попытка угона автомобиля, владелец держит угонщика, тот сопротивляется.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Угон"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "ГИБДД"
+  ]
+}

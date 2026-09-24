@@ -1,0 +1,33 @@
+{
+  "id": "scene_055",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Белова Павел",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ул. Новый Арбат, д. 145, кв. 89, у магазина",
+  "addressParts": {
+    "street": "ул. Новый Арбат",
+    "house": "145",
+    "apartment": "89",
+    "entrance": "7",
+    "floor": "16"
+  },
+  "language": "русский",
+  "presumedType": "103",
+  "presumedTitle": "Медицинская помощь",
+  "description": "Беременная женщина потеряла сознание в метро, схватки начались.",
+  "urgency": "high",
+  "correctTags": {
+    "Состояние": [
+      "Роды"
+    ],
+    "Количество пострадавших": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП"
+  ]
+}

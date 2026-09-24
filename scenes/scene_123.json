@@ -1,0 +1,34 @@
+{
+  "id": "scene_123",
+  "phone": "+7 (954) 101-88-55",
+  "phoneHidden": false,
+  "name": "Морозов Артём",
+  "city": "Раменское",
+  "district": "МО",
+  "address": "ул. Советская, д. 138",
+  "addressParts": {
+    "street": "ул. Советская",
+    "house": "138",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Погоня за угнанным автомобилем, водитель опасен, стреляет.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Угон"
+    ],
+    "Оружие": [
+      "Огнестрельное"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "ГИБДД",
+    "Росгвардия"
+  ]
+}

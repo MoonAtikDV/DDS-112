@@ -1,0 +1,34 @@
+{
+  "id": "scene_111",
+  "phone": "+7 (919) 163-67-23",
+  "phoneHidden": false,
+  "name": "Лебедев Юлия",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "МКАД, 15 км, д. 11, кв. 147, у ТЦ",
+  "addressParts": {
+    "street": "МКАД, 15 км",
+    "house": "11",
+    "apartment": "147",
+    "entrance": "6",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Драка с ножом у ночного клуба, один ранен, нападавший скрылся.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Хулиганство"
+    ],
+    "Оружие": [
+      "Холодное"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "Росгвардия"
+  ]
+}

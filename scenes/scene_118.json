@@ -1,0 +1,29 @@
+{
+  "id": "scene_118",
+  "phone": "+7 (948) 614-77-63",
+  "phoneHidden": false,
+  "name": "Кузнецов Денис",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ул. Ленина, д. 50, кв. 147, у ТЦ",
+  "addressParts": {
+    "street": "ул. Ленина",
+    "house": "50",
+    "apartment": "147",
+    "entrance": "4",
+    "floor": "20"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Пьяный дебош в подъезде, мужчина бьёт двери и орёт.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Хулиганство"
+    ]
+  },
+  "correctServices": [
+    "Служба 102"
+  ]
+}

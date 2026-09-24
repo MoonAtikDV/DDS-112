@@ -1,0 +1,32 @@
+{
+  "id": "scene_110",
+  "phone": "+7 (911) 729-86-74",
+  "phoneHidden": false,
+  "name": "Алексеева Елена",
+  "city": "Жуковский",
+  "district": "МО",
+  "address": "ул. Кирова, д. 116",
+  "addressParts": {
+    "street": "ул. Кирова",
+    "house": "116",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Сообщение о минировании всех станций метро, проверка начата.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "ФСБ"
+  ]
+}

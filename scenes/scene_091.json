@@ -1,0 +1,34 @@
+{
+  "id": "scene_091",
+  "phone": "+7 (976) 102-45-28",
+  "phoneHidden": false,
+  "name": "Морозов Екатерина",
+  "city": "Мытищи",
+  "district": "МО",
+  "address": "МКАД, 42 км, д. 142, у парка",
+  "addressParts": {
+    "street": "МКАД, 42 км",
+    "house": "142",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Прорыв магистральной трубы, район без воды, подтопление улиц.",
+  "urgency": "high",
+  "correctTags": {
+    "Место": [
+      "Улица"
+    ],
+    "Уровень": [
+      "Значительный"
+    ]
+  },
+  "correctServices": [
+    "Мосводоканал",
+    "Мосводосток",
+    "Деп. ЖКХ"
+  ]
+}

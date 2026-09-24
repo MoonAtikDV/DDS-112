@@ -1,0 +1,34 @@
+{
+  "id": "scene_126",
+  "phone": "+7 (958) 137-47-35",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Наро-Фоминск",
+  "district": "МО",
+  "address": "ул. Кирова, д. 123, кв. 35",
+  "addressParts": {
+    "street": "ул. Кирова",
+    "house": "123",
+    "apartment": "35",
+    "entrance": "4",
+    "floor": "2"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Вооружённый конфликт между двумя группами у ночного клуба.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Хулиганство"
+    ],
+    "Оружие": [
+      "Холодное"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия",
+    "Служба 103"
+  ]
+}

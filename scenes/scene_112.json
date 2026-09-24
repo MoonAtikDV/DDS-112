@@ -1,0 +1,29 @@
+{
+  "id": "scene_112",
+  "phone": "+7 (936) 496-62-53",
+  "phoneHidden": false,
+  "name": "Михайлова Алексей",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Арбат, д. 64, кв. 113, у магазина",
+  "addressParts": {
+    "street": "ул. Арбат",
+    "house": "64",
+    "apartment": "113",
+    "entrance": "6",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Кража из магазина, вор задержан охраной, ждёт полицию.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Кража"
+    ]
+  },
+  "correctServices": [
+    "Служба 102"
+  ]
+}

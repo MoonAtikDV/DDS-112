@@ -1,0 +1,29 @@
+{
+  "id": "scene_116",
+  "phone": "+7 (998) 732-26-86",
+  "phoneHidden": false,
+  "name": "Соловьёва Дмитрий",
+  "city": "Ногинск",
+  "district": "МО",
+  "address": "ул. Академика Янгеля, д. 26, кв. 139",
+  "addressParts": {
+    "street": "ул. Академика Янгеля",
+    "house": "26",
+    "apartment": "139",
+    "entrance": "3",
+    "floor": "6"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Вандализм на остановке, разбиты стёкла, подростки убегают.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Вандализм"
+    ]
+  },
+  "correctServices": [
+    "Служба 102"
+  ]
+}

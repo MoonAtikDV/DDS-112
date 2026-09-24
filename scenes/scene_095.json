@@ -1,0 +1,33 @@
+{
+  "id": "scene_095",
+  "phone": "+7 (983) 766-80-37",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Серпухов",
+  "district": "МО",
+  "address": "ул. Обручева, д. 117, кв. 111",
+  "addressParts": {
+    "street": "ул. Обручева",
+    "house": "117",
+    "apartment": "111",
+    "entrance": "4",
+    "floor": "14"
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Затоплен подвал магазина, товар портится, вода продолжает прибывать.",
+  "urgency": "medium",
+  "correctTags": {
+    "Место": [
+      "Подвал"
+    ],
+    "Уровень": [
+      "Средний"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Деп. ЖКХ"
+  ]
+}

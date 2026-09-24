@@ -1,0 +1,37 @@
+{
+  "id": "scene_077",
+  "phone": "+7 (942) 972-96-78",
+  "phoneHidden": false,
+  "name": "Громов Татьяна",
+  "city": "Балашиха",
+  "district": "МО",
+  "address": "ул. Профсоюзная, д. 121, кв. 68",
+  "addressParts": {
+    "street": "ул. Профсоюзная",
+    "house": "121",
+    "apartment": "68",
+    "entrance": "6",
+    "floor": "16"
+  },
+  "language": "русский",
+  "presumedType": "obl",
+  "presumedTitle": "Угроза обрушения",
+  "description": "Часть лесов на стройке обрушилась, рабочих в зоне нет.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Угроза обрушения"
+    ],
+    "Объект": [
+      "Прочее"
+    ],
+    "Люди": [
+      "Нет людей"
+    ]
+  },
+  "correctServices": [
+    "Служба 101",
+    "Гормост",
+    "Деп. ЖКХ"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scene_129",
+  "phone": "+7 (957) 717-64-31",
+  "phoneHidden": false,
+  "name": "Лебедев Валентина",
+  "city": "Щёлково",
+  "district": "МО",
+  "address": "Каширское шоссе, д. 140, во дворе",
+  "addressParts": {
+    "street": "Каширское шоссе",
+    "house": "140",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Погоня за наркоторговцем, он выбросил пакет, скрылся в подъезде.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Наркотики"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "scene_104",
+  "phone": "+7 (985) 925-55-19",
+  "phoneHidden": false,
+  "name": "Громов Сергей",
+  "city": "Домодедово",
+  "district": "МО",
+  "address": "МКАД, 15 км, д. 111",
+  "addressParts": {
+    "street": "МКАД, 15 км",
+    "house": "111",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Подозрительный предмет",
+  "description": "В школе нашли свёрток в туалете с надписью «взрывчатка».",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "Служба 101"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scene_101",
+  "phone": "+7 (972) 710-20-16",
+  "phoneHidden": false,
+  "name": "Зайцева Екатерина",
+  "city": "Королёв",
+  "district": "МО",
+  "address": "ул. Митинская, д. 108, кв. 41",
+  "addressParts": {
+    "street": "ул. Митинская",
+    "house": "108",
+    "apartment": "41",
+    "entrance": "1",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Сообщение о минировании вокзала, эвакуация пассажиров, сапёры выезжают.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "ФСБ",
+    "РЖД"
+  ]
+}

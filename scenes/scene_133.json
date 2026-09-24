@@ -1,0 +1,31 @@
+{
+  "id": "scene_133",
+  "phone": "+7 (962) 304-25-27",
+  "phoneHidden": false,
+  "name": "Михайлова Андрей",
+  "city": "Коломна",
+  "district": "МО",
+  "address": "ул. Новый Арбат, д. 68, кв. 181, у школы",
+  "addressParts": {
+    "street": "ул. Новый Арбат",
+    "house": "68",
+    "apartment": "181",
+    "entrance": "3",
+    "floor": "15"
+  },
+  "language": "русский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Свалка незаконная в лесу, горят покрышки, дым едкий.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Незаконная свалка"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "Служба 101",
+    "ОАТИ"
+  ]
+}

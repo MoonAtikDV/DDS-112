@@ -1,0 +1,32 @@
+{
+  "id": "scene_099",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Орлов Светлана",
+  "city": "Одинцово",
+  "district": "МО",
+  "address": "ул. Гагарина, д. 144, кв. 160, у ТЦ",
+  "addressParts": {
+    "street": "ул. Гагарина",
+    "house": "144",
+    "apartment": "160",
+    "entrance": "5",
+    "floor": "1"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Звонок о бомбе в ТЦ, толпа паникует, охрана перекрывает выходы.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "ФСБ"
+  ]
+}

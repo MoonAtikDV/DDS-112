@@ -1,0 +1,37 @@
+{
+  "id": "scene_078",
+  "phone": "+7 (955) 200-91-22",
+  "phoneHidden": false,
+  "name": "Алексеева Сергей",
+  "city": "Химки",
+  "district": "МО",
+  "address": "ул. Школьная, д. 18",
+  "addressParts": {
+    "street": "ул. Школьная",
+    "house": "18",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "obl",
+  "presumedTitle": "Угроза обрушения",
+  "description": "Балкон на 9 этаже частично обрушился, плита висит, в квартире люди.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Угроза обрушения"
+    ],
+    "Объект": [
+      "Жилой дом"
+    ],
+    "Люди": [
+      "Есть люди"
+    ]
+  },
+  "correctServices": [
+    "Служба 101",
+    "Деп. ЖКХ",
+    "Служба 103"
+  ]
+}

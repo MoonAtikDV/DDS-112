@@ -1,0 +1,33 @@
+{
+  "id": "scene_097",
+  "phone": "+7 (971) 437-95-25",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Солнечногорск",
+  "district": "МО",
+  "address": "МКАД, 15 км, д. 96, кв. 143",
+  "addressParts": {
+    "street": "МКАД, 15 км",
+    "house": "96",
+    "apartment": "143",
+    "entrance": "7",
+    "floor": "2"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Угроза взрыва",
+  "description": "Анонимное сообщение о минировании школы, эвакуация начата.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Угроза минирования"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "ФСБ",
+    "Служба 101"
+  ]
+}

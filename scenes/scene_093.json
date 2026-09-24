@@ -1,0 +1,35 @@
+{
+  "id": "scene_093",
+  "phone": "+7 (928) 729-15-94",
+  "phoneHidden": false,
+  "name": "Фёдоров Игорь",
+  "city": "Люберцы",
+  "district": "МО",
+  "address": "МКАД, 15 км, д. 17, кв. 200",
+  "addressParts": {
+    "street": "МКАД, 15 км",
+    "house": "17",
+    "apartment": "200",
+    "entrance": "8",
+    "floor": "1"
+  },
+  "language": "английский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Прорыв трубы в тоннеле метро, вода прибывает, движение остановлено.",
+  "urgency": "high",
+  "correctTags": {
+    "Место": [
+      "Метро"
+    ],
+    "Уровень": [
+      "Значительный"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Мосводоканал",
+    "Служба 101",
+    "РЖД"
+  ]
+}

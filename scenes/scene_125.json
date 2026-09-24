@@ -1,0 +1,30 @@
+{
+  "id": "scene_125",
+  "phone": "+7 (998) 695-52-27",
+  "phoneHidden": false,
+  "name": "Зайцева Валентина",
+  "city": "Троицк",
+  "district": "МО",
+  "address": "Рязанский пр-т, д. 5, кв. 18",
+  "addressParts": {
+    "street": "Рязанский пр-т",
+    "house": "5",
+    "apartment": "18",
+    "entrance": "6",
+    "floor": "6"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Попытка похищения ребёнка у школы, похититель задержан прохожими.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Похищение"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103"
+  ]
+}

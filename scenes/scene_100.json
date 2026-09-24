@@ -1,0 +1,32 @@
+{
+  "id": "scene_100",
+  "phone": "+7 (972) 773-61-18",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Можайск",
+  "district": "МО",
+  "address": "МКАД, 42 км, д. 80, кв. 90",
+  "addressParts": {
+    "street": "МКАД, 42 км",
+    "house": "80",
+    "apartment": "90",
+    "entrance": "1",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Подозрительный предмет",
+  "description": "В парке нашли металлическую банку с надписью «бомба», дети рядом.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "Служба 101"
+  ]
+}

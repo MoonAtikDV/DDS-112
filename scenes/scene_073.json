@@ -1,0 +1,34 @@
+{
+  "id": "scene_073",
+  "phone": "+7 (976) 620-27-18",
+  "phoneHidden": false,
+  "name": "Соколов Татьяна",
+  "city": "Красногорск",
+  "district": "МО",
+  "address": "ул. Победы, д. 124, кв. 63",
+  "addressParts": {
+    "street": "ул. Победы",
+    "house": "124",
+    "apartment": "63",
+    "entrance": "7",
+    "floor": "11"
+  },
+  "language": "русский",
+  "presumedType": "dtp",
+  "presumedTitle": "ДТП",
+  "description": "Столкновение велосипедиста с автомобилем, велосипедист в сознании.",
+  "urgency": "medium",
+  "correctTags": {
+    "Пострадавшие": [
+      "С пострадавшими"
+    ],
+    "Количество ТС": [
+      "1"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "ГИБДД"
+  ]
+}

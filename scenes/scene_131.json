@@ -1,0 +1,31 @@
+{
+  "id": "scene_131",
+  "phone": "+7 (946) 470-59-82",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Ногинск",
+  "district": "МО",
+  "address": "ул. Заводская, д. 113",
+  "addressParts": {
+    "street": "ул. Заводская",
+    "house": "113",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Разлив нефтепродуктов из цистерны у гаражей, запах сильный.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Разлив нефтепродуктов"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "Мосводосток",
+    "Служба 101"
+  ]
+}

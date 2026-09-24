@@ -1,0 +1,29 @@
+{
+  "id": "scene_124",
+  "phone": "+7 (964) 905-74-80",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Наро-Фоминск",
+  "district": "МО",
+  "address": "ул. Аэродромная, д. 22, кв. 93",
+  "addressParts": {
+    "street": "ул. Аэродромная",
+    "house": "22",
+    "apartment": "93",
+    "entrance": "8",
+    "floor": "2"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Мошенники обманули пенсионерку, забрали деньги, скрылись.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Мошенничество"
+    ]
+  },
+  "correctServices": [
+    "Служба 102"
+  ]
+}

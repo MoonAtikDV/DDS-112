@@ -1,0 +1,34 @@
+{
+  "id": "scene_086",
+  "phone": "+7 (981) 480-23-96",
+  "phoneHidden": false,
+  "name": "Волков Роман",
+  "city": "Москва",
+  "district": "ЮВАО",
+  "address": "ул. Садовая, д. 32, кв. 173",
+  "addressParts": {
+    "street": "ул. Садовая",
+    "house": "32",
+    "apartment": "173",
+    "entrance": "1",
+    "floor": "20"
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "В подвале многоэтажки сильное затопление, вода поднимается к электрощитам.",
+  "urgency": "medium",
+  "correctTags": {
+    "Место": [
+      "Подвал"
+    ],
+    "Уровень": [
+      "Значительный"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Деп. ЖКХ",
+    "Служба 101"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scene_090",
+  "phone": "+7 (906) 905-52-41",
+  "phoneHidden": false,
+  "name": "Орлов Юлия",
+  "city": "Королёв",
+  "district": "МО",
+  "address": "ул. Новый Арбат, д. 117, у ТЦ",
+  "addressParts": {
+    "street": "ул. Новый Арбат",
+    "house": "117",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "vod",
+  "presumedTitle": "Скопление воды",
+  "description": "Канализация хлещет во двор, запах сильный, жильцы жалуются.",
+  "urgency": "medium",
+  "correctTags": {
+    "Место": [
+      "Улица"
+    ],
+    "Уровень": [
+      "Средний"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Деп. ЖКХ"
+  ]
+}

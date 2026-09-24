@@ -1,0 +1,32 @@
+{
+  "id": "scene_115",
+  "phone": "+7 (927) 449-72-34",
+  "phoneHidden": false,
+  "name": "Петрова Павел",
+  "city": "Наро-Фоминск",
+  "district": "МО",
+  "address": "ул. Центральная, д. 24, кв. 109",
+  "addressParts": {
+    "street": "ул. Центральная",
+    "house": "24",
+    "apartment": "109",
+    "entrance": "3",
+    "floor": "5"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Захват заложников в банке, вооружённый мужчина требует выкуп.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Захват заложников"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия",
+    "ФСБ",
+    "Служба 103"
+  ]
+}

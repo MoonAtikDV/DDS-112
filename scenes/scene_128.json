@@ -1,0 +1,32 @@
+{
+  "id": "scene_128",
+  "phone": "+7 (947) 916-76-44",
+  "phoneHidden": false,
+  "name": "Николаева Владимир",
+  "city": "Щербинка",
+  "district": "МО",
+  "address": "МКАД, 15 км, д. 113, кв. 99, у остановки",
+  "addressParts": {
+    "street": "МКАД, 15 км",
+    "house": "113",
+    "apartment": "99",
+    "entrance": "7",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "102",
+  "presumedTitle": "Правонарушение",
+  "description": "Захват заложников в школе, вооружённый мужчина, дети внутри.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Захват заложников"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия",
+    "ФСБ",
+    "Служба 103"
+  ]
+}

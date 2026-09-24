@@ -1,0 +1,32 @@
+{
+  "id": "scene_096",
+  "phone": "+7 (919) 803-70-18",
+  "phoneHidden": false,
+  "name": "Белова Наталья",
+  "city": "Реутов",
+  "district": "МО",
+  "address": "ул. Шоссейная, д. 107, кв. 81",
+  "addressParts": {
+    "street": "ул. Шоссейная",
+    "house": "107",
+    "apartment": "81",
+    "entrance": "2",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "threat",
+  "presumedTitle": "Подозрительный предмет",
+  "description": "Бесхозная сумка у входа в метро, никто не подходит, охрана вызвала.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип угрозы": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "Служба 101"
+  ]
+}
