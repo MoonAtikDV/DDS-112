@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тренажёр оператора ДДС · Система-112 · учебный контур</title>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <div id="login-screen" class="login-screen">
+    <div class="login-box">
+      <h1>112 · Вход в систему</h1>
+      <div class="sub">ГБУ «Система 112» · учебный контур · локальная сеть</div>
+      <label>Логин</label>
+      <input type="text" id="user-login" placeholder="логин" autocomplete="username" />
+      <label>Пароль</label>
+      <input type="password" id="user-pass" placeholder="••••••••" autocomplete="current-password" />
+      <button type="button" class="btn-primary" id="login-btn">Войти</button>
+      <div class="role-hint">
+        Вход по учётной записи из базы. Роль определяется автоматически.<br>
+        <a href="register.html" style="color:var(--orange);font-weight:700;">Регистрация оператора</a>
+        · после входа админ и преподаватель попадают в свои кабинеты
+      </div>
+      <div id="login-error" style="color:var(--err);font-weight:600;margin-top:12px;display:none;"></div>
+    </div>
+  </div>
+
+  <div id="incoming-call-bar" class="incoming-call-bar">
+    <div class="incoming-call-dialog">
+      <div class="call-top">
+        <span class="ring"><span class="ms">ring_volume</span></span>
+        <div class="call-title">Входящий вызов · 112</div>
+        <div class="call-name" id="incoming-caller-name">—</div>
+        <div class="call-phone" id="incoming-caller-label">—</div>
+        <div class="call-type" id="incoming-type-hint"></div>
+      </div>
+      <div class="call-actions" id="incoming-call-actions">
+        <button type="button" class="accept-only" id="btn-accept-incoming">ПРИНЯТЬ</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="caller-window" class="caller-window">
+    <div class="cw-header">
+      <span>Сведения о вызове</span>
+      <span class="cw-close" id="cw-close">×</span>
+    </div>
+    <div class="cw-body">
+      <div class="cw-row"><span class="cw-label">Кто звонит</span><span class="cw-value" id="cw-name">—</span></div>
+      <div class="cw-row"><span class="cw-label">Номер</span><span class="cw-value" id="cw-phone">—</span></div>
+      <div class="cw-row"><span class="cw-label">Город</span><span class="cw-value" id="cw-city">—</span></div>
+      <div class="cw-row"><span class="cw-label">Адрес</span><span class="cw-value" id="cw-address">—</span></div>
+      <div class="cw-row"><span class="cw-label">Округ</span><span class="cw-value" id="cw-district">—</span></div>
+      <div class="cw-row"><span class="cw-label">Язык</span><span class="cw-value" id="cw-lang">—</span></div>
+      <div class="cw-row"><span class="cw-label">Тип (подсказка)</span><span class="cw-value" id="cw-type">—</span></div>
+      <div class="cw-row"><span class="cw-label">Срочность</span><span class="cw-value" id="cw-urgency">—</span></div>
+      <div class="cw-row"><span class="cw-label">Что случилось</span><span class="cw-value" id="cw-desc" style="font-weight:400; line-height:1.4;">—</span></div>
+      <div class="cw-hint">Перетащите окно за заголовок</div>
+    </div>
+    <div class="cw-row" id="cw-drop-row" style="display:none;padding:0 14px 8px;">
+      <span class="cw-value urgent">Звонок был сброшен</span>
+    </div>
+    <div class="cw-actions">
+      <button type="button" class="primary" id="cw-apply">Вывести</button>
+      <button type="button" id="cw-msg">Сообщение</button>
+      <button type="button" id="cw-end-call">Сбросить вызов</button>
+      <button type="button" id="cw-close-btn">Свернуть</button>
+    </div>
+  </div>
+
+  <div id="app" class="app">
+    <nav class="side-nav">
+      <button type="button" id="nav-card" class="active" data-tip="Карточка происшествия"><span class="ms">description</span></button>
+      <button type="button" id="nav-search" data-tip="Поиск происшествий"><span class="ms">search</span></button>
+      <button type="button" id="nav-dds" data-tip="Рабочее поле ДДС"><span class="ms">list_alt</span></button>
+    </nav>
+    <div id="side-tooltip" class="side-tooltip"></div>
+
+    <header class="header">
+      <div class="tab">
+        <span class="dot"></span>
+        <span id="tab-title">Происшествие …</span>
+      </div>
+      <div class="header-right">
+        <span class="user-info" id="user-display">—</span>
+        <button type="button" class="icon-btn" id="btn-call-demo" data-tip="Имитировать вызов"><span class="ms">ring_volume</span></button>
+        <button type="button" class="icon-btn" id="btn-logout" data-tip="Выход"><span class="ms">logout</span></button>
+      </div>
+    </header>
+    <div id="call-info-strip" class="call-info-strip"></div>
+
+    <div class="phone-bar">
+      <div class="phone-block">
+        <span class="ms" style="color:var(--orange)">call</span>
+        <button type="button" class="btn-chip">Отключение</button>
+        <button type="button" class="btn-chip">записи</button>
+        <button type="button" class="btn-chip">SMS</button>
+      </div>
+      <div class="phone-block">
+        <label>АОН</label>
+        <input type="text" placeholder="+7 (   ) - -" value="+7 (   ) - -" />
+        <button type="button" class="btn-chip">АОН</button>
+      </div>
+      <div class="phone-block">
+        <label>предоставленный</label>
+        <input type="text" placeholder="+7 (   ) - -" />
+        <button type="button" class="btn-chip">АОН</button>
+      </div>
+      <div class="phone-block">
+        <label>на место</label>
+        <input type="text" placeholder="+7 (   ) - -" />
+        <button type="button" class="btn-chip">АОН</button>
+      </div>
+      <div class="timer-box" id="timer">
+        <div class="time">00:00</div>
+        <div class="sub">минут · секунд</div>
+      </div>
+    </div>
+
+    <div id="locked-workspace" class="workspace-locked">
+      <div class="lock-msg">
+        <span class="ms">phone_in_talk</span>
+        <h2>Ожидание входящего вызова</h2>
+        <p>Экран заполнения карточки откроется после принятия вызова 112. Вызовы поступают внезапно в ходе смены.</p>
+      </div>
+    </div>
+
+    <div id="card-workspace" class="main" style="display:none;">
+      <div class="left-panel">
+        <div class="section">
+          <div class="section-title">Заявитель</div>
+          <div class="field-row">
+            <div class="field full">
+              <input type="text" placeholder="ФИО заявителя" id="caller-name-input" />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>Статус</label>
+              <select>
+                <option>выберите статус</option>
+                <option>На месте</option>
+                <option>Нет на месте</option>
+                <option>Отказался</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-title">Адрес</div>
+          <div class="addr-quick">
+            <button type="button" id="btn-addr-moscow">Москва</button>
+            <button type="button" onclick="document.getElementById('addr-desc').focus()">Описательный</button>
+          </div>
+          <div class="field-row">
+            <div class="field"><label>Страна</label><input id="addr-country" value="Россия" /></div>
+            <div class="field"><label>Субъект</label><input id="addr-subject" value="Москва" /></div>
+          </div>
+          <div class="field-row">
+            <div class="field full"><label>Населённый пункт</label><input id="addr-city" value="Москва" /></div>
+          </div>
+          <div class="field-row">
+            <div class="field full"><label>Улица</label><input id="addr-street" placeholder="ул. / пер. / пр-т" /></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label>Дом</label><input id="addr-house" /></div>
+            <div class="field"><label>Корпус</label><input id="addr-building" /></div>
+            <div class="field"><label>Квартира</label><input id="addr-apt" /></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label>Подъезд</label><input id="addr-entrance" /></div>
+            <div class="field"><label>Этаж</label><input id="addr-floor" /></div>
+            <div class="field"><label>Код</label><input id="addr-code" /></div>
+          </div>
+          <div class="field-row">
+            <div class="field full"><label>Описательный адрес</label><input id="addr-desc" placeholder="ориентир" /></div>
+          </div>
+        </div>
+        <div class="section" style="flex:1;">
+          <div class="section-title">Описание со слов заявителя</div>
+          <textarea id="desc-text" placeholder="введите" rows="5"></textarea>
+        </div>
+      </div>
+
+      <div class="center-panel">
+        <div class="top-actions">
+          <button type="button" class="action-btn">Пострадавшие</button>
+          <button type="button" class="action-btn">Нет на месте</button>
+          <button type="button" class="action-btn">Нет доступа</button>
+          <button type="button" class="action-btn danger">нет контакта</button>
+          <button type="button" class="action-btn danger">срыв звонка</button>
+          <button type="button" class="action-btn primary" id="btn-new-card" style="margin-left:auto;">Новая карточка</button>
+        </div>
+        <div class="scenario-area" id="scenario-area"></div>
+      </div>
+
+      <div class="teacher-panel" id="teacher-panel">
+        <div class="tp-header">Преподаватель</div>
+        <div class="tp-section">
+          <h4>Норматив (сек)</h4>
+          <select id="timer-limit">
+            <option value="20">20</option>
+            <option value="30" selected>30</option>
+            <option value="45">45</option>
+            <option value="60">60</option>
+            <option value="90">90</option>
+          </select>
+        </div>
+        <div class="tp-section">
+          <h4>Результаты</h4>
+          <ul class="student-list" id="student-results">
+            <li><span>Нет данных</span><span class="score">—</span></li>
+          </ul>
+        </div>
+        <div class="tp-section">
+          <h4>Действия</h4>
+          <button type="button" class="action-btn" style="width:100%; margin-bottom:6px;" onclick="document.getElementById('btn-call-demo').click()">Вызов сейчас</button>
+          <button type="button" class="action-btn primary" style="width:100%;" id="btn-eval-teacher">Оценить</button>
+        </div>
+      </div>
+
+      <div class="bottom-actions">
+        <button type="button" class="fab save" id="btn-save">сохранить</button>
+        <button type="button" class="fab eval" id="btn-eval">оценить</button>
+      </div>
+    </div>
+
+    <div id="search-workspace" class="search-workspace">
+      <div class="search-header">
+        <h2>Поиск происшествий</h2>
+        <div class="search-row">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" />
+            <span class="search-icon ms">search</span>
+          </div>
+          <span class="search-advanced">расширенный ▾</span>
+          <button type="button" class="search-reset" id="search-reset">сбросить</button>
+        </div>
+        <div class="search-clock" id="search-clock">
+          <div class="date">—</div>
+          <div class="time">00:00:00</div>
+        </div>
+      </div>
+      <div style="padding:10px 16px; background:var(--surface); font-weight:700; font-size:13px; color:var(--orange);">Список происшествий</div>
+      <div class="search-list-wrap" id="search-list"></div>
+    </div>
+
+    <div id="dds-workspace" class="dds-workspace">
+      <div class="dds-toolbar">
+        <strong>Рабочее поле ДДС</strong>
+        <button type="button" class="btn-text" onclick="Modes.show('card')">← К карточке</button>
+        <span style="margin-left:auto; font-size:12px; font-weight:400; color:var(--on-surface-variant);">Поселение Вороновское</span>
+      </div>
+      <div class="msg-list" id="msg-list"></div>
+    </div>
+
+    <div class="services-bar">
+      <span class="services-label">Службы:</span>
+      <div id="services-list" style="display:flex; gap:6px; flex:1; overflow-x:auto;"></div>
+      <button type="button" class="add-service-btn" id="btn-add-service">＋ добавить</button>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="group-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <span>Тип происшествия</span>
+        <span class="modal-close">×</span>
+      </div>
+      <div class="modal-body" id="group-modal-body"></div>
+    </div>
+  </div>
+  <div class="modal-overlay" id="service-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <span>Добавить службу</span>
+        <span class="modal-close">×</span>
+      </div>
+      <div class="modal-body" id="service-modal-body"></div>
+    </div>
+  </div>
+  <div class="modal-overlay" id="msg-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <span>Сообщение абоненту</span>
+        <span class="modal-close">×</span>
+      </div>
+      <div class="modal-body" id="msg-modal-body">
+        <div class="field"><label>Кому</label><input type="text" id="msg-to" readonly /></div>
+        <div class="field"><label>Текст сообщения</label>
+          <textarea id="msg-text" rows="4" placeholder="Текст SMS / сообщения…"></textarea>
+        </div>
+        <button type="button" class="btn-primary" id="msg-send" style="width:100%">Отправить</button>
+        <div id="msg-history" style="margin-top:12px;font-size:12px;font-weight:500;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="svc-card-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <span id="svc-card-modal-title">Карточка службы</span>
+        <span class="modal-close">×</span>
+      </div>
+      <div class="modal-body" id="svc-card-modal-body"></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="eval-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <span>Оценка</span>
+        <span class="modal-close">×</span>
+      </div>
+      <div class="modal-body eval-result" id="eval-modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <span id="card-title" style="display:none"></span>
+
+  <script src="data/classifier.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/dom.js"></script>
+  <script src="js/scenes.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/card.js"></script>
+  <script src="js/calls.js"></script>
+  <script src="js/evaluation.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/dds.js"></script>
+  <script src="js/modes.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

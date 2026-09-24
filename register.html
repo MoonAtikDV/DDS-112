@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Регистрация оператора · 112</title>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="login-screen" style="display:flex;">
+    <div class="login-box">
+      <h1>Регистрация</h1>
+      <div class="sub">Создание учётной записи оператора / преподавателя</div>
+      <label>Логин</label>
+      <input type="text" id="reg-login" autocomplete="username" />
+      <label>ФИО</label>
+      <input type="text" id="reg-name" />
+      <label>Роль</label>
+      <select id="reg-role">
+        <option value="student">Обучающийся (оператор)</option>
+        <option value="teacher">Преподаватель</option>
+      </select>
+      <label>Пароль</label>
+      <input type="password" id="reg-pass" autocomplete="new-password" />
+      <label>Повтор пароля</label>
+      <input type="password" id="reg-pass2" autocomplete="new-password" />
+      <button type="button" class="btn-primary" id="reg-btn">Создать аккаунт</button>
+      <div class="role-hint"><a href="index.html" style="color:var(--orange);font-weight:700;">← Ко входу</a></div>
+      <div id="reg-msg" style="margin-top:12px;font-weight:600;"></div>
+    </div>
+  </div>
+  <script>
+    document.getElementById("reg-btn").onclick = function () {
+      var login = document.getElementById("reg-login").value.trim();
+      var name = document.getElementById("reg-name").value.trim();
+      var role = document.getElementById("reg-role").value;
+      var p1 = document.getElementById("reg-pass").value;
+      var p2 = document.getElementById("reg-pass2").value;
+      var msg = document.getElementById("reg-msg");
+      if (p1 !== p2) {
+        msg.style.color = "#c62828";
+        msg.textContent = "Пароли не совпадают";
+        return;
+      }
+      fetch("/api/auth/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ login: login, full_name: name || login, role: role, password: p1 })
+      })
+        .then(function (r) { return r.json().then(function (j) { return { s: r.status, j: j }; }); })
+        .then(function (res) {
+          if (res.s === 200 && res.j.ok) {
+            msg.style.color = "#2e7d32";
+            msg.textContent = "Аккаунт создан. Можно войти.";
+            setTimeout(function () { location.href = "index.html"; }, 1200);
+          } else {
+            msg.style.color = "#c62828";
+            msg.textContent = (res.j && res.j.error) || "Ошибка";
+          }
+        })
+        .catch(function () {
+          msg.style.color = "#c62828";
+          msg.textContent = "Сервер недоступен";
+        });
+    };
+  </script>
+</body>
+</html>

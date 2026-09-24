@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-ext-400.woff2") format("woff2"),
+       url("../fonts/open-sans-cyrillic-400.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-ext-400.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-ext-500.woff2") format("woff2"),
+       url("../fonts/open-sans-cyrillic-500.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-ext-500.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-ext-600.woff2") format("woff2"),
+       url("../fonts/open-sans-cyrillic-600.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-ext-600.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-ext-700.woff2") format("woff2"),
+       url("../fonts/open-sans-cyrillic-700.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-ext-700.woff2") format("woff2"),
+       url("../fonts/open-sans-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Material Symbols Outlined";
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: block;
+  src: url("../fonts/material-symbols-outlined.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Material Symbols Outlined";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/MaterialSymbolsOutlined-24.ttf") format("truetype");
+}
+.ms {
+  font-family: "Material Symbols Outlined", sans-serif !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 22px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Преподаватель · 112</title>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/cabinet.css" />
+</head>
+<body>
+  <header class="cab-header">
+    <div class="logo">112 <span>кабинет преподавателя</span></div>
+    <div class="who" id="who">—</div>
+    <button type="button" id="btn-logout">Выход</button>
+  </header>
+  <div class="cab-layout">
+    <nav class="cab-nav">
+      <button type="button" class="active" data-t="assign">Задания</button>
+      <button type="button" data-t="online">Ученики онлайн</button>
+      <button type="button" data-t="eval">Результаты</button>
+    </nav>
+    <main class="cab-main">
+      <div id="p-assign" class="panel on">
+        <h2>Задания</h2>
+        <p class="hint">Отправка только обучающимся, которые сейчас в сети</p>
+        <div class="card">
+          <h3>Новое задание</h3>
+          <label>Ученик (онлайн)</label>
+          <select id="as-student"><option value="">— нажмите «Обновить онлайн» —</option></select>
+          <label>Тема</label>
+          <input id="as-title" placeholder="Практика: пожар / ДТП / газ" />
+          <label>Текст</label>
+          <textarea id="as-body" placeholder="Примите вызов, заполните карточку вручную, выберите службы…"></textarea>
+          <label>Файл сцены (необязательно)</label>
+          <input id="as-scene" placeholder="scene_002.json" />
+          <div class="actions">
+            <button type="button" class="btn" id="btn-send-as">Отправить</button>
+            <button type="button" class="btn ghost" id="btn-ref-students">Обновить онлайн</button>
+          </div>
+          <div class="msg" id="as-msg"></div>
+        </div>
+        <div class="card">
+          <h3>Отправленные</h3>
+          <table>
+            <thead><tr><th>Время</th><th>Ученик</th><th>Тема</th><th>Статус</th></tr></thead>
+            <tbody id="as-tb"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="p-online" class="panel">
+        <h2>Ученики в сети</h2>
+        <p class="hint">Список обновляется по запросу</p>
+        <div class="card">
+          <div class="actions"><button type="button" class="btn ghost" id="btn-ref-online">Обновить</button></div>
+          <table>
+            <thead><tr><th>Логин</th><th>ФИО</th><th>Статус</th></tr></thead>
+            <tbody id="online-tb"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="p-eval" class="panel">
+        <h2>Результаты и оценки</h2>
+        <p class="hint">Автоматический % и ваша оценка 0–100</p>
+        <div class="card">
+          <div class="actions"><button type="button" class="btn ghost" id="btn-ref-eval">Обновить</button></div>
+          <table>
+            <thead><tr><th>Время</th><th>Оператор</th><th>Авто %</th><th>Сек</th><th>Тип</th><th>Ваша оценка</th><th>Выставить</th></tr></thead>
+            <tbody id="eval-tb"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/cabinet.js"></script>
+  <script>Cabinet.init("teacher");</script>
+</body>
+</html>

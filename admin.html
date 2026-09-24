@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Администратор · 112</title>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/cabinet.css" />
+</head>
+<body>
+  <header class="cab-header">
+    <div class="logo">112 <span>консоль администратора</span></div>
+    <div class="who" id="who">—</div>
+    <button type="button" id="btn-logout">Выход</button>
+  </header>
+  <div class="cab-layout">
+    <nav class="cab-nav" id="nav">
+      <button type="button" class="active" data-t="users">Учётные записи</button>
+      <button type="button" data-t="online">Кто в сети</button>
+      <button type="button" data-t="eval">Результаты</button>
+      <button type="button" data-t="ais">АИС 112</button>
+      <button type="button" data-t="cfg">Параметры</button>
+    </nav>
+    <main class="cab-main">
+      <div id="p-users" class="panel on">
+        <h2>Учётные записи</h2>
+        <p class="hint">Создание, отключение и просмотр пользователей учебного контура</p>
+        <div class="card">
+          <h3>Новая учётка</h3>
+          <div class="grid2">
+            <div><label>Логин</label><input id="nu-login" autocomplete="off" /></div>
+            <div><label>ФИО</label><input id="nu-name" /></div>
+            <div>
+              <label>Роль</label>
+              <select id="nu-role">
+                <option value="student">Обучающийся</option>
+                <option value="teacher">Преподаватель</option>
+                <option value="admin">Администратор</option>
+              </select>
+            </div>
+            <div><label>Пароль</label><input type="password" id="nu-pass" /></div>
+          </div>
+          <div class="actions">
+            <button type="button" class="btn" id="btn-create-user">Создать</button>
+            <button type="button" class="btn ghost" id="btn-refresh-users">Обновить список</button>
+          </div>
+          <div class="msg" id="users-msg"></div>
+        </div>
+        <div class="card">
+          <h3>Список</h3>
+          <table>
+            <thead><tr><th>Логин</th><th>ФИО</th><th>Роль</th><th>Статус</th><th></th></tr></thead>
+            <tbody id="users-tb"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="p-online" class="panel">
+        <h2>Кто в сети</h2>
+        <p class="hint">Пользователи с heartbeat за последние 45 секунд (локальная сеть)</p>
+        <div class="card">
+          <div class="actions"><button type="button" class="btn ghost" id="btn-ref-online">Обновить</button></div>
+          <table>
+            <thead><tr><th>Логин</th><th>ФИО</th><th>Роль</th><th>Статус</th></tr></thead>
+            <tbody id="online-tb"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="p-eval" class="panel">
+        <h2>Результаты обучения</h2>
+        <p class="hint">Автооценка в % и ручная оценка администратора / преподавателя</p>
+        <div class="card">
+          <div class="actions"><button type="button" class="btn ghost" id="btn-ref-eval">Обновить</button></div>
+          <table>
+            <thead><tr><th>Время</th><th>Оператор</th><th>Авто %</th><th>Сек</th><th>Тип</th><th>Оценка</th><th>Выставить</th></tr></thead>
+            <tbody id="eval-tb"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="p-ais" class="panel">
+        <h2>Интеграция АИС 112</h2>
+        <p class="hint">По умолчанию исходящие в боевой контур выключены</p>
+        <div class="card">
+          <label>URL API АИС</label>
+          <input id="ais-url" placeholder="https://ais112.local/api/v1" />
+          <label>Токен</label>
+          <input type="password" id="ais-token" />
+          <div class="grid2">
+            <div>
+              <label>Режим</label>
+              <select id="ais-mode">
+                <option value="sandbox">Песочница</option>
+                <option value="mirror">Зеркало</option>
+                <option value="live">Боевой</option>
+              </select>
+            </div>
+            <div>
+              <label>Исходящие</label>
+              <select id="ais-allow">
+                <option value="0">Запрещены</option>
+                <option value="1">Разрешены</option>
+              </select>
+            </div>
+          </div>
+          <div class="actions">
+            <button type="button" class="btn" id="btn-ais-save">Сохранить</button>
+            <button type="button" class="btn ghost" id="btn-ais-ping">Проверить связь</button>
+          </div>
+          <div class="msg" id="ais-msg"></div>
+        </div>
+      </div>
+
+      <div id="p-cfg" class="panel">
+        <h2>Параметры тренажёра</h2>
+        <p class="hint">Нормативы времени и интервал случайных вызовов</p>
+        <div class="card">
+          <label>Норматив заполнения, сек</label>
+          <input type="number" id="cfg-timer" value="30" />
+          <div class="grid2">
+            <div><label>Интервал вызовов, мин</label><input type="number" id="cfg-min" value="15" /></div>
+            <div><label>Интервал вызовов, макс</label><input type="number" id="cfg-max" value="35" /></div>
+          </div>
+          <div class="actions"><button type="button" class="btn" id="btn-cfg-save">Сохранить</button></div>
+          <div class="msg" id="cfg-msg"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/cabinet.js"></script>
+  <script>Cabinet.init("admin");</script>
+</body>
+</html>
