@@ -1,0 +1,31 @@
+{
+  "id": "scene_196",
+  "phone": "+7 (910) 211-41-94",
+  "phoneHidden": false,
+  "name": "Ковалёва Светлана",
+  "city": "Ногинск",
+  "district": "МО",
+  "address": "ул. Гарнизонная, д. 108, кв. 93, у метро",
+  "addressParts": {
+    "street": "ул. Гарнизонная",
+    "house": "108",
+    "apartment": "93",
+    "entrance": "1",
+    "floor": "19"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Массовое отравление в детском саду, 12 детей с рвотой и температурой.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Отравление"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП",
+    "Служба 102"
+  ]
+}

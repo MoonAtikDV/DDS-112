@@ -1,0 +1,31 @@
+{
+  "id": "scene_184",
+  "phone": "+7 (969) 677-94-14",
+  "phoneHidden": false,
+  "name": "Белова Дарья",
+  "city": "Раменское",
+  "district": "МО",
+  "address": "ул. Лесная, д. 122",
+  "addressParts": {
+    "street": "ул. Лесная",
+    "house": "122",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Обрыв линии электропередач, провода на земле, искрят.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Электричество"
+    ]
+  },
+  "correctServices": [
+    "МОЭСК",
+    "Служба 101",
+    "Деп. ЖКХ"
+  ]
+}

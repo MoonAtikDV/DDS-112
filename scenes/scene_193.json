@@ -1,0 +1,31 @@
+{
+  "id": "scene_193",
+  "phone": "+7 (948) 387-60-56",
+  "phoneHidden": false,
+  "name": "Фёдоров Полина",
+  "city": "Щербинка",
+  "district": "МО",
+  "address": "ул. Строителей, д. 75, кв. 163",
+  "addressParts": {
+    "street": "ул. Строителей",
+    "house": "75",
+    "apartment": "163",
+    "entrance": "4",
+    "floor": "19"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Массовая драка болельщиков после матча, есть раненые.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Массовые беспорядки"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия",
+    "Служба 103"
+  ]
+}

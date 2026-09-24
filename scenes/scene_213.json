@@ -1,0 +1,32 @@
+{
+  "id": "scene_213",
+  "phone": "+7 (916) 679-72-53",
+  "phoneHidden": false,
+  "name": "Алексеева Екатерина",
+  "city": "Щербинка",
+  "district": "МО",
+  "address": "Зелёный пр-т, д. 110, кв. 127, у ТЦ",
+  "addressParts": {
+    "street": "Зелёный пр-т",
+    "house": "110",
+    "apartment": "127",
+    "entrance": "1",
+    "floor": "2"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек угрожает взорвать газовый баллон в квартире, семья внутри.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Терроризм"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 104",
+    "Росгвардия",
+    "Служба 103"
+  ]
+}

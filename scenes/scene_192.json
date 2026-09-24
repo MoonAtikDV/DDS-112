@@ -1,0 +1,30 @@
+{
+  "id": "scene_192",
+  "phone": "+7 (983) 708-27-48",
+  "phoneHidden": false,
+  "name": "Лебедев Ирина",
+  "city": "Жуковский",
+  "district": "МО",
+  "address": "ул. Тверская, д. 102, кв. 159",
+  "addressParts": {
+    "street": "ул. Тверская",
+    "house": "102",
+    "apartment": "159",
+    "entrance": "4",
+    "floor": "16"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Пропал ребёнок 5 лет в торговом центре, родители в панике.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Пропавший"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без."
+  ]
+}

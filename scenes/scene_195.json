@@ -1,0 +1,31 @@
+{
+  "id": "scene_195",
+  "phone": "+7 (948) 175-67-86",
+  "phoneHidden": false,
+  "name": "Соколов Артём",
+  "city": "Наро-Фоминск",
+  "district": "МО",
+  "address": "ул. Советская, д. 36, кв. 62",
+  "addressParts": {
+    "street": "ул. Советская",
+    "house": "36",
+    "apartment": "62",
+    "entrance": "7",
+    "floor": "18"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек угрожает прыгнуть с крыши 20-этажки, собралась толпа.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Суицид"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "Росгвардия"
+  ]
+}

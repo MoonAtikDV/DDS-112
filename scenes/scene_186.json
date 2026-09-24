@@ -1,0 +1,30 @@
+{
+  "id": "scene_186",
+  "phone": "+7 (909) 448-87-88",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Можайск",
+  "district": "МО",
+  "address": "ш. Энтузиастов, д. 21, кв. 89, у школы",
+  "addressParts": {
+    "street": "ш. Энтузиастов",
+    "house": "21",
+    "apartment": "89",
+    "entrance": "6",
+    "floor": "1"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сильный запах канализации в подъезде, жильцы жалуются неделю.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Коммунальные услуги"
+    ]
+  },
+  "correctServices": [
+    "Мосводосток",
+    "Деп. ЖКХ"
+  ]
+}

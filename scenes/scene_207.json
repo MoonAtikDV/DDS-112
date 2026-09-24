@@ -1,0 +1,32 @@
+{
+  "id": "scene_207",
+  "phone": "+7 (946) 655-15-66",
+  "phoneHidden": false,
+  "name": "Волков Денис",
+  "city": "Реутов",
+  "district": "МО",
+  "address": "ул. Лесная, д. 127, кв. 29",
+  "addressParts": {
+    "street": "ул. Лесная",
+    "house": "127",
+    "apartment": "29",
+    "entrance": "7",
+    "floor": "4"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек застрял в шахте лифта, зовёт на помощь с нижнего этажа.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Падение"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "Мослифт",
+    "Служба 101",
+    "ЦЭМП"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scene_199",
+  "phone": "+7 (938) 145-24-12",
+  "phoneHidden": false,
+  "name": "Громов Ирина",
+  "city": "Королёв",
+  "district": "МО",
+  "address": "ул. Центральная, д. 124, кв. 25, у остановки",
+  "addressParts": {
+    "street": "ул. Центральная",
+    "house": "124",
+    "apartment": "25",
+    "entrance": "2",
+    "floor": "6"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сломался светофор на оживлённом перекрёстке, хаос в движении.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Транспорт"
+    ]
+  },
+  "correctServices": [
+    "ЦОДД",
+    "ГИБДД"
+  ]
+}

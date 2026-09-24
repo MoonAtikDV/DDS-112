@@ -1,0 +1,31 @@
+{
+  "id": "scene_211",
+  "phone": "+7 (950) 601-28-83",
+  "phoneHidden": false,
+  "name": "Морозов Денис",
+  "city": "Можайск",
+  "district": "МО",
+  "address": "Садовое кольцо, д. 64, у остановки",
+  "addressParts": {
+    "street": "Садовое кольцо",
+    "house": "64",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек упал с балкона 5 этажа, лежит во дворе, без сознания.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Падение"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "Служба 102",
+    "ЦЭМП"
+  ]
+}

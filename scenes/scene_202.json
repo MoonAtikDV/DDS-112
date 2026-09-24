@@ -1,0 +1,31 @@
+{
+  "id": "scene_202",
+  "phone": "+7 (967) 754-50-86",
+  "phoneHidden": false,
+  "name": "Волков Валентина",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ул. Садовая, д. 48, кв. 51",
+  "addressParts": {
+    "street": "ул. Садовая",
+    "house": "48",
+    "apartment": "51",
+    "entrance": "7",
+    "floor": "19"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек застрял в мусоропроводе, зовёт на помощь.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Падение"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "Деп. ЖКХ",
+    "Служба 101"
+  ]
+}

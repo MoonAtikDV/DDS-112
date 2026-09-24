@@ -1,0 +1,33 @@
+{
+  "id": "scene_179",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Кузнецов Павел",
+  "city": "Истра",
+  "district": "МО",
+  "address": "ул. Академика Королёва, д. 18, кв. 3, у парка",
+  "addressParts": {
+    "street": "ул. Академика Королёва",
+    "house": "18",
+    "apartment": "3",
+    "entrance": "8",
+    "floor": "16"
+  },
+  "language": "английский",
+  "presumedType": "other",
+  "presumedTitle": "Военное происшествие",
+  "description": "Военный патруль запросил гражданскую скорую для местного жителя у КПП.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Военный объект"
+    ],
+    "Тип": [
+      "Медицина"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "Служба 103"
+  ]
+}

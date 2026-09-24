@@ -1,0 +1,31 @@
+{
+  "id": "scene_198",
+  "phone": "+7 (910) 218-28-54",
+  "phoneHidden": false,
+  "name": "Попов Игорь",
+  "city": "Реутов",
+  "district": "МО",
+  "address": "ТТК, д. 129",
+  "addressParts": {
+    "street": "ТТК",
+    "house": "129",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сломался эскалатор в ТЦ, люди упали, есть травмы.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Травма"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "Служба 102",
+    "Деп. ЖКХ"
+  ]
+}

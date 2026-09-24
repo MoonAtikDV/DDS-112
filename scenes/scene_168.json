@@ -1,0 +1,34 @@
+{
+  "id": "scene_168",
+  "phone": "+7 (935) 293-24-14",
+  "phoneHidden": false,
+  "name": "Морозов Ирина",
+  "city": "Жуковский",
+  "district": "МО",
+  "address": "ул. Кирова, д. 140, кв. 98, у школы",
+  "addressParts": {
+    "street": "ул. Кирова",
+    "house": "140",
+    "apartment": "98",
+    "entrance": "1",
+    "floor": "8"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Военное происшествие",
+  "description": "Утеряны секретные документы офицером, ищут в городе.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Военный объект"
+    ],
+    "Тип": [
+      "Утеря документов"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "ФСБ",
+    "Минобороны"
+  ]
+}

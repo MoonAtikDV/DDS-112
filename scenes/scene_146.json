@@ -1,0 +1,33 @@
+{
+  "id": "scene_146",
+  "phone": "+7 (943) 671-56-28",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Дмитров",
+  "district": "МО",
+  "address": "ул. Военная, д. 31",
+  "addressParts": {
+    "street": "ул. Военная",
+    "house": "31",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Любительский дрон упал на крышу жилого дома, владелец неизвестен.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Падение БПЛА"
+    ],
+    "Место": [
+      "Жилой район"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Деп. ЖКХ"
+  ]
+}

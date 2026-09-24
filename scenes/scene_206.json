@@ -1,0 +1,31 @@
+{
+  "id": "scene_206",
+  "phone": "+7 (937) 133-45-38",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Реутов",
+  "district": "МО",
+  "address": "ул. Советская, д. 43",
+  "addressParts": {
+    "street": "ул. Советская",
+    "house": "43",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Обрыв троллейбусных проводов, провода на земле, движение остановлено.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Электричество"
+    ]
+  },
+  "correctServices": [
+    "МОЭСК",
+    "ЦОДД",
+    "Служба 101"
+  ]
+}

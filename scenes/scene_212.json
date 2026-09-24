@@ -1,0 +1,31 @@
+{
+  "id": "scene_212",
+  "phone": "+7 (941) 695-10-21",
+  "phoneHidden": false,
+  "name": "Семенова Ирина",
+  "city": "Реутов",
+  "district": "МО",
+  "address": "ул. Профсоюзная, д. 24, кв. 192, у школы",
+  "addressParts": {
+    "street": "ул. Профсоюзная",
+    "house": "24",
+    "apartment": "192",
+    "entrance": "6",
+    "floor": "3"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Массовое отравление на свадьбе, 40 человек, подозрение на токсин.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Отравление"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП",
+    "Служба 102"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "scene_189",
+  "phone": "+7 (971) 668-75-62",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Реутов",
+  "district": "МО",
+  "address": "Северный бульвар, д. 70",
+  "addressParts": {
+    "street": "Северный бульвар",
+    "house": "70",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек упал в открытый люк колодца, зовёт на помощь.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Падение"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "Мосводоканал",
+    "Деп. ЖКХ"
+  ]
+}

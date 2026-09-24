@@ -1,0 +1,31 @@
+{
+  "id": "scene_200",
+  "phone": "+7 (929) 916-61-90",
+  "phoneHidden": false,
+  "name": "Новиков Николай",
+  "city": "Солнечногорск",
+  "district": "МО",
+  "address": "Можайское шоссе, д. 133",
+  "addressParts": {
+    "street": "Можайское шоссе",
+    "house": "133",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Массовая паника в ТЦ из-за ложного сообщения о пожаре, давка.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Паника"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103",
+    "Служба 101"
+  ]
+}

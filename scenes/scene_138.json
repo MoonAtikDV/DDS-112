@@ -1,0 +1,30 @@
+{
+  "id": "scene_138",
+  "phone": "+7 (938) 729-78-21",
+  "phoneHidden": false,
+  "name": "Новиков Наталья",
+  "city": "Серпухов",
+  "district": "МО",
+  "address": "ул. Обручева, д. 21",
+  "addressParts": {
+    "street": "ул. Обручева",
+    "house": "21",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Разлив мазута на берегу реки, птицы в мазуте.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Разлив нефтепродуктов"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "Мосводосток"
+  ]
+}

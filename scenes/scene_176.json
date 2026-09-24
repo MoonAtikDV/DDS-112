@@ -1,0 +1,34 @@
+{
+  "id": "scene_176",
+  "phone": "+7 (994) 249-12-43",
+  "phoneHidden": false,
+  "name": "Иванов Роман",
+  "city": "Солнечногорск",
+  "district": "МО",
+  "address": "ул. Ленина, д. 82, кв. 95",
+  "addressParts": {
+    "street": "ул. Ленина",
+    "house": "82",
+    "apartment": "95",
+    "entrance": "7",
+    "floor": "10"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Военное происшествие",
+  "description": "Военный конвой остановился из-за поломки, груз охраняется, нужна помощь ГИБДД.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Транспорт"
+    ],
+    "Тип": [
+      "Конвой"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "ГИБДД",
+    "ЦОДД"
+  ]
+}

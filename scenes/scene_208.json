@@ -1,0 +1,36 @@
+{
+  "id": "scene_208",
+  "phone": "+7 (911) 549-25-40",
+  "phoneHidden": false,
+  "name": "Кузнецов Наталья",
+  "city": "Истра",
+  "district": "МО",
+  "address": "МКАД, 42 км, д. 64",
+  "addressParts": {
+    "street": "МКАД, 42 км",
+    "house": "64",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Взрыв бытового газа в многоквартирном доме, разрушены 2 квартиры.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Взрыв"
+    ],
+    "Угроза людям": [
+      "Да"
+    ]
+  },
+  "correctServices": [
+    "Служба 101",
+    "Служба 104",
+    "Служба 103",
+    "Служба 102",
+    "Деп. ЖКХ"
+  ]
+}

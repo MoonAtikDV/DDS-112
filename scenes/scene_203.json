@@ -1,0 +1,32 @@
+{
+  "id": "scene_203",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Михайлова Роман",
+  "city": "Троицк",
+  "district": "МО",
+  "address": "ул. Кирова, д. 45, кв. 181",
+  "addressParts": {
+    "street": "ул. Кирова",
+    "house": "45",
+    "apartment": "181",
+    "entrance": "2",
+    "floor": "8"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Обнаружено подозрительное вещество в письме в мэрию, конверт вскрыт.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Химия"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Служба 101"
+  ]
+}

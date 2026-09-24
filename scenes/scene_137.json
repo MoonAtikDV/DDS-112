@@ -1,0 +1,31 @@
+{
+  "id": "scene_137",
+  "phone": "+7 (919) 411-31-30",
+  "phoneHidden": false,
+  "name": "Иванов Кирилл",
+  "city": "Кубинка",
+  "district": "МО",
+  "address": "ул. Парковая, д. 47, кв. 34",
+  "addressParts": {
+    "street": "ул. Парковая",
+    "house": "47",
+    "apartment": "34",
+    "entrance": "4",
+    "floor": "12"
+  },
+  "language": "русский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Незаконная вырубка деревьев в парке, техника на месте.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Незаконная вырубка"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "ОАТИ",
+    "Служба 102"
+  ]
+}

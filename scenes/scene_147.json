@@ -1,0 +1,35 @@
+{
+  "id": "scene_147",
+  "phone": "+7 (919) 720-75-27",
+  "phoneHidden": false,
+  "name": "Ковалёва Владимир",
+  "city": "Серпухов",
+  "district": "МО",
+  "address": "ул. Арбат, д. 12",
+  "addressParts": {
+    "street": "ул. Арбат",
+    "house": "12",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон пытался пролететь над Кремлём, сбит, обломки на площади.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Важный объект"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Росгвардия"
+  ]
+}

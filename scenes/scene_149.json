@@ -1,0 +1,35 @@
+{
+  "id": "scene_149",
+  "phone": "+7 (929) 838-16-84",
+  "phoneHidden": false,
+  "name": "Ковалёва Денис",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ш. Энтузиастов, д. 7, кв. 68",
+  "addressParts": {
+    "street": "ш. Энтузиастов",
+    "house": "7",
+    "apartment": "68",
+    "entrance": "7",
+    "floor": "5"
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон с камерой зафиксирован над атомной станцией, охрана в тревоге.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Важный объект"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Военная полиция"
+  ]
+}

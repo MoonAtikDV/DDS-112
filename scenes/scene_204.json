@@ -1,0 +1,30 @@
+{
+  "id": "scene_204",
+  "phone": "+7 (962) 750-78-98",
+  "phoneHidden": false,
+  "name": "Фёдоров Татьяна",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "Северный бульвар, д. 37, кв. 108, у метро",
+  "addressParts": {
+    "street": "Северный бульвар",
+    "house": "37",
+    "apartment": "108",
+    "entrance": "3",
+    "floor": "16"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек с психическим расстройством угрожает ножом прохожим.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Психиатрия"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103"
+  ]
+}

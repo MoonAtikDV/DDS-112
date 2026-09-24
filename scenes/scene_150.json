@@ -1,0 +1,35 @@
+{
+  "id": "scene_150",
+  "phone": "+7 (952) 807-36-62",
+  "phoneHidden": false,
+  "name": "Кузнецов Екатерина",
+  "city": "Одинцово",
+  "district": "МО",
+  "address": "ул. Арбат, д. 147, кв. 29",
+  "addressParts": {
+    "street": "ул. Арбат",
+    "house": "147",
+    "apartment": "29",
+    "entrance": "8",
+    "floor": "2"
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон сбросил неизвестный предмет на территорию воинской части.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Военный объект"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "Минобороны",
+    "ФСБ",
+    "Мос.Без."
+  ]
+}

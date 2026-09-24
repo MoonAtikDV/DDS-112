@@ -1,0 +1,30 @@
+{
+  "id": "scene_190",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Егоров Денис",
+  "city": "Коломна",
+  "district": "МО",
+  "address": "ул. Большая Полянка, д. 84, кв. 4, у метро",
+  "addressParts": {
+    "street": "ул. Большая Полянка",
+    "house": "84",
+    "apartment": "4",
+    "entrance": "3",
+    "floor": "13"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сильный шум от стройки ночью, жильцы не могут спать.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Шум"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "ОАТИ"
+  ]
+}

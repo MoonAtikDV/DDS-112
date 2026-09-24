@@ -1,0 +1,35 @@
+{
+  "id": "scene_141",
+  "phone": "+7 (944) 508-26-57",
+  "phoneHidden": false,
+  "name": "Громов Екатерина",
+  "city": "Домодедово",
+  "district": "МО",
+  "address": "ул. Кирова, д. 53, кв. 37",
+  "addressParts": {
+    "street": "ул. Кирова",
+    "house": "53",
+    "apartment": "37",
+    "entrance": "2",
+    "floor": "11"
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Неизвестный дрон кружит над правительственным зданием, низко.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Важный объект"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "Росгвардия",
+    "ФСБ"
+  ]
+}

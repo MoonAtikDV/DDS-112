@@ -1,0 +1,30 @@
+{
+  "id": "scene_191",
+  "phone": "+7 (909) 469-42-41",
+  "phoneHidden": false,
+  "name": "Волков Николай",
+  "city": "Красногорск",
+  "district": "МО",
+  "address": "ул. Юных Ленинцев, д. 69, кв. 17, у школы",
+  "addressParts": {
+    "street": "ул. Юных Ленинцев",
+    "house": "69",
+    "apartment": "17",
+    "entrance": "4",
+    "floor": "15"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Обнаружено тело в парке, обстоятельства неясны.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Труп"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 103"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scene_209",
+  "phone": "+7 (907) 683-54-78",
+  "phoneHidden": false,
+  "name": "Васильева Кирилл",
+  "city": "Можайск",
+  "district": "МО",
+  "address": "ул. Люблинская, д. 110",
+  "addressParts": {
+    "street": "ул. Люблинская",
+    "house": "110",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Человек угрожает взорвать себя в центре города, в руках свёрток.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Терроризм"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Росгвардия",
+    "ФСБ",
+    "Мос.Без.",
+    "Служба 103"
+  ]
+}

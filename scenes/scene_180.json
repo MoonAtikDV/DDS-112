@@ -1,0 +1,35 @@
+{
+  "id": "scene_180",
+  "phone": "+7 (902) 614-99-96",
+  "phoneHidden": false,
+  "name": "Волков Светлана",
+  "city": "Коломна",
+  "district": "МО",
+  "address": "ул. Парковая, д. 106",
+  "addressParts": {
+    "street": "ул. Парковая",
+    "house": "106",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Военное происшествие",
+  "description": "Найдены следы взрывного устройства у КПП воинской части.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Военный объект"
+    ],
+    "Тип": [
+      "Подозрительный предмет"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "Минобороны",
+    "ФСБ",
+    "Мос.Без."
+  ]
+}

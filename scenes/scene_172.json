@@ -1,0 +1,35 @@
+{
+  "id": "scene_172",
+  "phone": "+7 (907) 675-62-63",
+  "phoneHidden": false,
+  "name": "Громов Мария",
+  "city": "Кубинка",
+  "district": "МО",
+  "address": "ул. Садовая, д. 122",
+  "addressParts": {
+    "street": "ул. Садовая",
+    "house": "122",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Военное происшествие",
+  "description": "Попытка угона военной техники с полигона, угонщик скрылся.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Военный объект"
+    ],
+    "Тип": [
+      "Угон"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "Военная комендатура",
+    "Служба 102",
+    "ГИБДД"
+  ]
+}

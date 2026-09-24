@@ -1,0 +1,35 @@
+{
+  "id": "scene_143",
+  "phone": "+7 (939) 609-12-21",
+  "phoneHidden": false,
+  "name": "Попов Галина",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Строителей, д. 148, кв. 49, у парка",
+  "addressParts": {
+    "street": "ул. Строителей",
+    "house": "148",
+    "apartment": "49",
+    "entrance": "8",
+    "floor": "8"
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Рой дронов над аэродромом, диспетчеры сообщают о помехах.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Аэродром"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Военная полиция"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scene_153",
+  "phone": "+7 (950) 938-54-28",
+  "phoneHidden": false,
+  "name": "Новиков Татьяна",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ш. Энтузиастов, д. 71",
+  "addressParts": {
+    "street": "ш. Энтузиастов",
+    "house": "71",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон упал на территорию школы во время уроков, дети эвакуированы.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Падение БПЛА"
+    ],
+    "Место": [
+      "Жилой район"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 101",
+    "Мос.Без."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scene_197",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Павлова Игорь",
+  "city": "Наро-Фоминск",
+  "district": "МО",
+  "address": "ул. Вокзальная, д. 103, кв. 85",
+  "addressParts": {
+    "street": "ул. Вокзальная",
+    "house": "103",
+    "apartment": "85",
+    "entrance": "4",
+    "floor": "15"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сильный запах дыма из вентиляции без видимого огня, жильцы волнуются.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Задымление"
+    ]
+  },
+  "correctServices": [
+    "Служба 101",
+    "Деп. ЖКХ"
+  ]
+}

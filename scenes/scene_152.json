@@ -1,0 +1,34 @@
+{
+  "id": "scene_152",
+  "phone": "+7 (926) 806-72-50",
+  "phoneHidden": false,
+  "name": "Алексеева Денис",
+  "city": "Одинцово",
+  "district": "МО",
+  "address": "Ленинский пр-т, д. 143",
+  "addressParts": {
+    "street": "Ленинский пр-т",
+    "house": "143",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон упал на провода ЛЭП, искрение, риск отключения района.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Падение БПЛА"
+    ],
+    "Место": [
+      "Улица"
+    ]
+  },
+  "correctServices": [
+    "МОЭСК",
+    "Служба 101",
+    "Служба 102"
+  ]
+}

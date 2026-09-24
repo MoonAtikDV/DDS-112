@@ -1,0 +1,30 @@
+{
+  "id": "scene_210",
+  "phone": "+7 (912) 238-62-17",
+  "phoneHidden": false,
+  "name": "Соловьёва Егор",
+  "city": "Зеленоград",
+  "district": "МО",
+  "address": "ул. Казарменная, д. 75, у ТЦ",
+  "addressParts": {
+    "street": "ул. Казарменная",
+    "house": "75",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сильный запах гнили из мусоропровода, жильцы жалуются на крыс.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Коммунальные услуги"
+    ]
+  },
+  "correctServices": [
+    "Деп. ЖКХ",
+    "ОАТИ"
+  ]
+}

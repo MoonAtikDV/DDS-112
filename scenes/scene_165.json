@@ -1,0 +1,33 @@
+{
+  "id": "scene_165",
+  "phone": null,
+  "phoneHidden": true,
+  "name": "Фёдоров Елена",
+  "city": "Алабино",
+  "district": "МО",
+  "address": "ул. Юных Ленинцев, д. 6, кв. 1",
+  "addressParts": {
+    "street": "ул. Юных Ленинцев",
+    "house": "6",
+    "apartment": "1",
+    "entrance": "2",
+    "floor": "18"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Военное происшествие",
+  "description": "Военнослужащий в увольнении пьяный дебоширит в общественном месте.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Военный объект"
+    ],
+    "Тип": [
+      "Хулиганство"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "Служба 102"
+  ]
+}

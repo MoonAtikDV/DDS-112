@@ -1,0 +1,30 @@
+{
+  "id": "scene_188",
+  "phone": "+7 (949) 424-56-23",
+  "phoneHidden": false,
+  "name": "Ковалёва Максим",
+  "city": "Можайск",
+  "district": "МО",
+  "address": "ул. Профсоюзная, д. 22",
+  "addressParts": {
+    "street": "ул. Профсоюзная",
+    "house": "22",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Собака агрессивная без намордника на детской площадке, детей увели.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Животные"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Деп. ЖКХ"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "scene_185",
+  "phone": "+7 (930) 680-59-96",
+  "phoneHidden": false,
+  "name": "Смирнова Андрей",
+  "city": "Москва",
+  "district": "ВАО",
+  "address": "ул. Речная, д. 37, кв. 183, во дворе",
+  "addressParts": {
+    "street": "ул. Речная",
+    "house": "37",
+    "apartment": "183",
+    "entrance": "7",
+    "floor": "5"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Лифт с людьми застрял между этажами, один пассажир в панике, астма.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Лифт"
+    ]
+  },
+  "correctServices": [
+    "Мослифт",
+    "Служба 103",
+    "Деп. ЖКХ"
+  ]
+}

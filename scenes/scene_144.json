@@ -1,0 +1,35 @@
+{
+  "id": "scene_144",
+  "phone": "+7 (968) 108-23-65",
+  "phoneHidden": false,
+  "name": "Орлов Валентина",
+  "city": "Троицк",
+  "district": "МО",
+  "address": "пр. Мира, д. 13",
+  "addressParts": {
+    "street": "пр. Мира",
+    "house": "13",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон с камерой снимает военный объект, охрана пытается сбить.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Военный объект"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "Мос.Без.",
+    "ФСБ",
+    "Служба 102"
+  ]
+}

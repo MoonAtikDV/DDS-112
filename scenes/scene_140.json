@@ -1,0 +1,32 @@
+{
+  "id": "scene_140",
+  "phone": "+7 (987) 515-48-68",
+  "phoneHidden": false,
+  "name": "Орлов Андрей",
+  "city": "Видное",
+  "district": "МО",
+  "address": "ул. Школьная, д. 8, кв. 161",
+  "addressParts": {
+    "street": "ул. Школьная",
+    "house": "8",
+    "apartment": "161",
+    "entrance": "1",
+    "floor": "6"
+  },
+  "language": "русский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Разлив кислоты на химскладе, угроза попадания в водоём.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Выброс химикатов"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "Служба 101",
+    "Мосводосток",
+    "Мос.Без."
+  ]
+}

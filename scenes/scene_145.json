@@ -1,0 +1,35 @@
+{
+  "id": "scene_145",
+  "phone": "+7 (946) 666-46-19",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Троицк",
+  "district": "МО",
+  "address": "МКАД, 42 км, д. 104, кв. 103",
+  "addressParts": {
+    "street": "МКАД, 42 км",
+    "house": "104",
+    "apartment": "103",
+    "entrance": "8",
+    "floor": "18"
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон с грузом пролетел над режимным объектом и упал за оградой.",
+  "urgency": "high",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Военный объект"
+    ]
+  },
+  "correctServices": [
+    "Военная полиция",
+    "ФСБ",
+    "Мос.Без.",
+    "Служба 102"
+  ]
+}

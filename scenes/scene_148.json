@@ -1,0 +1,35 @@
+{
+  "id": "scene_148",
+  "phone": "+7 (938) 586-12-57",
+  "phoneHidden": false,
+  "name": "Новиков Владимир",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Шоссейная, д. 77, кв. 130",
+  "addressParts": {
+    "street": "ул. Шоссейная",
+    "house": "77",
+    "apartment": "130",
+    "entrance": "2",
+    "floor": "14"
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон мешает посадке самолётов в аэропорту, диспетчеры в тревоге.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Неопознанный БПЛА"
+    ],
+    "Место": [
+      "Аэродром"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Мос.Без.",
+    "ФСБ",
+    "Военная полиция"
+  ]
+}

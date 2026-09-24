@@ -1,0 +1,30 @@
+{
+  "id": "scene_135",
+  "phone": "+7 (959) 922-80-26",
+  "phoneHidden": false,
+  "name": "Семенова Светлана",
+  "city": "Королёв",
+  "district": "МО",
+  "address": "ул. Академика Янгеля, д. 36, у магазина",
+  "addressParts": {
+    "street": "ул. Академика Янгеля",
+    "house": "36",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "английский",
+  "presumedType": "eco",
+  "presumedTitle": "Экологическое происшествие",
+  "description": "Незаконный сброс отходов в реку, вода изменила цвет.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Загрязнение водоёма"
+    ]
+  },
+  "correctServices": [
+    "Департамент ППиООС",
+    "Мосводосток"
+  ]
+}

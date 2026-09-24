@@ -1,0 +1,33 @@
+{
+  "id": "scene_142",
+  "phone": "+7 (949) 984-88-63",
+  "phoneHidden": false,
+  "name": "Неизвестный",
+  "city": "Люберцы",
+  "district": "МО",
+  "address": "Ленинский пр-т, д. 116",
+  "addressParts": {
+    "street": "Ленинский пр-т",
+    "house": "116",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "bpla",
+  "presumedTitle": "БПЛА",
+  "description": "Дрон упал на детскую площадку, есть повреждение, детей рядом нет.",
+  "urgency": "medium",
+  "correctTags": {
+    "Тип": [
+      "Падение БПЛА"
+    ],
+    "Место": [
+      "Жилой район"
+    ]
+  },
+  "correctServices": [
+    "Служба 102",
+    "Служба 101"
+  ]
+}

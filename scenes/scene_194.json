@@ -1,0 +1,31 @@
+{
+  "id": "scene_194",
+  "phone": "+7 (937) 951-98-18",
+  "phoneHidden": false,
+  "name": "Громов Ольга",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Военная, д. 141, у ТЦ",
+  "addressParts": {
+    "street": "ул. Военная",
+    "house": "141",
+    "apartment": "",
+    "entrance": "",
+    "floor": ""
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Сильный запах аммиака у холодильного склада, персонал эвакуирован.",
+  "urgency": "medium",
+  "correctTags": {
+    "Категория": [
+      "Химия"
+    ]
+  },
+  "correctServices": [
+    "Служба 101",
+    "Служба 103",
+    "Департамент ППиООС"
+  ]
+}

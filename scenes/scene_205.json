@@ -1,0 +1,32 @@
+{
+  "id": "scene_205",
+  "phone": "+7 (949) 675-74-93",
+  "phoneHidden": false,
+  "name": "Попов Мария",
+  "city": "Подольск",
+  "district": "МО",
+  "address": "ул. Строителей, д. 116, кв. 92",
+  "addressParts": {
+    "street": "ул. Строителей",
+    "house": "116",
+    "apartment": "92",
+    "entrance": "8",
+    "floor": "14"
+  },
+  "language": "русский",
+  "presumedType": "other",
+  "presumedTitle": "Прочее происшествие",
+  "description": "Массовое отравление угарным газом в котельной, 5 человек без сознания.",
+  "urgency": "high",
+  "correctTags": {
+    "Категория": [
+      "Отравление"
+    ]
+  },
+  "correctServices": [
+    "Служба 103",
+    "ЦЭМП",
+    "Служба 101",
+    "МОЭК"
+  ]
+}
